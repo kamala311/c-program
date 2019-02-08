@@ -5,15 +5,14 @@
 
 int main()
 {
-	int n;
+	int n,sum=0;
 	scanf("%d",&n);
-	int i=1;
-	while(i<=n)
+	for(int i=1;i<=n;i++)
 	{
-	    printf("Hello\n");
-	    i++;
-	    
+	    sum=sum+i;
 	}
+	printf("%d",sum);
 	return 0;
     
 }
+
