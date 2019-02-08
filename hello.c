@@ -1,19 +1,19 @@
 # c-program
+
 #include <stdio.h>
+
+
 int main()
 {
 	int n;
 	scanf("%d",&n);
-	if(n%4==0)
+	int i=1;
+	while(i<=n)
 	{
-	    printf("yes");
+	    printf("Hello\n");
+	    i++;
 	    
-	}
-	else
-	{
-	    printf("no");
 	}
 	return 0;
     
 }
-
