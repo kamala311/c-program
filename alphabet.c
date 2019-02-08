@@ -5,7 +5,7 @@
 int main() {
 	char s;
     scanf("%c",&s);
-    if(s>='a' || s<='z')
+    if(s>='a' && s<='z'|| s>='A'&& s<='B')
     {
         printf("alphabet");
         
