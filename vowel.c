@@ -9,7 +9,7 @@ int main() {
 	}
 	else
 	{
-		printf("consonents");
+		printf("consonant");
 	}
 	return 0;
 }
